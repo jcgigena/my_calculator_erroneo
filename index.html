@@ -1,0 +1,21 @@
+<!DOCSTYLE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta cgarset="utf-8">
+    </head>
+    <body>
+        <h1></h1>Calculadora de Juan Carlos GIGENA</h1>
+        Number:
+        <input type="text" id="n1">
+        <p>
+            <button onclick="cube()"> x*3 </button>
+        </p>
+        <script type="text/javascript">
+            function cube() {
+                var num = document.getElementById("n1");
+                num.value = Math.pw(num.value,3);
+            }
+        </script>
+    </body>
+</html>
